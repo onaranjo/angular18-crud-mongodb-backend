@@ -14,7 +14,7 @@ exports.getUsers = async(req, res) => {
     }
     catch(e){
         //console.log(e);
-        res.status(500).json({msg:"Internal Server Error!"});
+        res.status(500).json({msg:"Internal Server Error getUsers!"});
     }
 }
 
