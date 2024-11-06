@@ -11,7 +11,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-    origin:"http://127.0.0.1:4200"
+    origin:"http://100.20.92.101:4200"
 }));
 app.get("/", (req, res) => {
     res.send("API Working");
